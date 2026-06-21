@@ -256,6 +256,54 @@ footer{
     padding:25px;
     background:#111827;
     color:white;
+    margin:0;
+    padding:0;
+}
+.contact{
+    padding:80px 8%;
+    text-align:center;
+    background:#ffffff;
+}
+
+.contact h2{
+    color:#2E7D32;
+    margin-bottom:20px;
+    font-size:2.2rem;
+}
+
+.contact-info p{
+    color:black;
+    margin:8px 0;
+    font-size:1rem;
+}
+
+.contact h3{
+    margin-top:30px;
+    color:#1f2937;
+}
+
+/* Social links */
+.social-links{
+    margin-top:15px;
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+    gap:15px;
+}
+
+.social-links a{
+    text-decoration:none;
+    padding:10px 18px;
+    border-radius:25px;
+    background:#2E7D32;
+    color:white;
+    font-weight:500;
+    transition:0.3s ease;
+}
+
+.social-links a:hover{
+    background:#1B5E20;
+    transform:translateY(-3px);
 }
 
 /* RESPONSIVE */
